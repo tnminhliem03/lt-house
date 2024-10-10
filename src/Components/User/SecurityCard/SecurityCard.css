@@ -1,0 +1,13 @@
+.sc-card-des {
+    background-color: #e6dddd;
+    width: fit-content;
+    margin-left: auto !important;
+    padding: 0.4rem 1rem;
+}
+
+.btn-close {
+    position: absolute !important;
+    right: 10px;
+    top: 10px;
+    color: 'gray';
+}

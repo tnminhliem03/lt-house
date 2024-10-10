@@ -1,0 +1,19 @@
+.header-height {
+    height: 50px !important;
+}
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+.notif-box {
+    padding: 0.5rem;
+    width: 300px;
+    border-radius: 0.5rem;
+    text-wrap: wrap;
+    line-height: 5rem;
+}
+
+.notif-content {
+    margin: 0.25rem auto !important;
+}

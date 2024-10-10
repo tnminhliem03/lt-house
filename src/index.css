@@ -1,0 +1,226 @@
+body {
+  --primaryColor: #EAB543;
+  --secondaryColor: #122250   ;
+  --descriptionColor: #7D7D7D;
+  --backgroundButton: #f4f2e1;
+  --whiteColor: #fff6ee;
+  --radius: 1rem; 
+  color: #fff6ee !important;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mt-1r {
+  margin-top: 1rem !important;
+}
+
+.mt-2r {
+  margin-top: 2rem !important;
+}
+
+.mt-3r {
+  margin-top: 3rem !important;
+}
+
+.mt-5r {
+  margin-top: 5rem !important;
+}
+
+.mr-15r {
+  margin-right: 1.5rem !important;
+}
+
+.mb-1r {
+  margin-bottom: 1rem !important;
+}
+
+.mb-2r {
+  margin-bottom: 2rem !important;
+}
+
+.mb-3r {
+  margin-bottom: 3rem !important;
+}
+
+.mb-5r {
+  margin-bottom: 5rem !important;
+}
+
+.p-1r {
+  padding: 1rem !important;
+}
+
+.pr-1r {
+  padding-right: 0.8rem !important;
+}
+
+.plpr-24 {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+.ptpb-4 {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.align-center {
+  display: flex;
+  align-items: center !important;
+  align-self: center !important;
+  align-content: center !important;
+}
+
+.margin-center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.primary-text {
+  color: var(--primaryColor) !important;
+  font-weight: bold !important;
+}
+
+.secondary-text {
+  color: var(--secondaryColor) !important;
+}
+
+.description-text {
+  color: var(--descriptionColor) !important;
+}
+
+.white-text {
+  color: var(--whiteColor) !important;
+}
+
+.uppercase-text {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end !important;
+}
+
+.right {
+  margin-left: auto !important;
+}
+
+.btn-color {
+  background-color: var(--primaryColor) !important;
+  color: var(--whiteColor) !important;
+}
+
+.btn-scale:hover {
+  scale: 1.1;
+}
+
+form .MuiTextField-root {
+  margin-top: 2rem !important;
+}
+
+.inner-width {
+  width: 100% !important;
+}
+
+.inner-height {
+  height: 100% !important;
+}
+
+.card-status {
+  background-color: rgb(205, 3, 3) !important;
+  text-transform: none !important;
+  border-radius: 1.56rem 3.125rem !important;
+  width: fit-content;
+  margin-left: auto !important;
+}
+
+.c-status-done {
+  background-color: green !important;
+}
+
+.form-common {
+  margin: auto;
+}
+
+.form-common .MuiTextField-root,
+.form-btn {
+  width: 90% !important;
+}
+
+.form-btn {
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
+  border-radius: 6.25rem !important;
+}
+
+.form-common input,
+.form-common .MuiInputLabel-root,
+.form-common input::placeholder,
+.form-common .MuiInputAdornment-root,
+.form-common textarea {
+    color: black;
+}
+
+.form-common .MuiOutlinedInput-root fieldset {
+    border-color: black;
+}
+
+.form-common .MuiOutlinedInput-root:hover fieldset {
+  border-color: sandybrown !important;
+}
+
+.form-common .Mui-focused fieldset {
+  border-color: var(--primaryColor) !important;
+}
+
+.form-common .MuiInputLabel-root.Mui-focused,
+.form-common .MuiInputBase-root.Mui-focused .MuiInputAdornment-root,
+.form-common .MuiInputBase-root.Mui-focused .MuiInputAdornment-root > button,
+.form-common .MuiInputBase-root.Mui-focused input,
+.form-common .MuiInputBase-root.Mui-focused .MuiSelect-select {
+  color: var(--primaryColor) !important;
+}
+
+.form-100 .MuiTextField-root,
+.form-100 .form-btn {
+  width: 100% !important;
+}
+
+.wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://nhathuduc.com.vn/pl/img/36/eaton-park-slider.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hidden-overflow {
+  overflow: hidden !important;
+}
+
+.bdr-06r {
+  border-radius: 0.6rem !important;
+}
+
+.br-white {
+  border-right: 1px solid white;
+}

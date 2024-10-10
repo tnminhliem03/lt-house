@@ -1,0 +1,163 @@
+.c-wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 76.7vh !important;
+}
+
+.c-container {
+    height: 95% !important;
+    margin: auto;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1rem) saturate(360%);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.c-height {
+    height: 76.7vh !important;
+}
+
+/* .chat-list {
+    max-height: calc(120.4vh - 83px);
+} */
+
+.chat-btn-new {
+    min-width: fit-content !important;
+}
+
+.chat-list .css-8f14rq {
+    padding: 0 10px !important;
+    color: white !important;
+}
+
+.chat-list .css-mfvmol {
+    background-color: rgba(17, 25, 40, 0.5) !important;
+    width: 90% !important;
+    border-radius: 0.6rem;
+}
+
+.chat-list input {
+    padding-top: 6.5px !important;
+    padding-bottom: 6.5px !important;
+    padding-left: 2.5rem !important;
+    padding-right: 1rem !important;
+}
+
+.scroll-bar {
+    overflow-y: auto;
+    scrollbar-width: thin; 
+    scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.1);
+}
+
+.chat-mid-content {
+    flex-grow: 1;
+    max-height: calc(60.5vh - 81px);
+}
+
+.chat-message {
+    max-width: fit-content !important;
+    width: 65% !important;
+}
+
+.chat-message-owner-ml {
+    margin-left: auto !important;
+}
+
+.chat-message-owner-bg {
+    background-color: #5183fe;
+}
+
+.chat-message-partner {
+    background-color: rgba(17, 25, 40, 0.4);
+}
+
+.chat-img-box {
+    height: 310px !important;
+}
+
+.chat-img {
+    width: 100%;
+    height: 310px !important;
+}
+
+.chat-navigation,
+.chat-gallery {
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.chat-navigation .MuiTextField-root {
+    width: 100%;
+}
+
+.chat-navigation input {
+    color: white !important;
+}
+
+.chat-navigation fieldset {
+    border-color: white !important;
+    border-radius: 0.6rem !important;
+}
+
+.emoji {
+    position: relative;
+}
+
+.emoji-picker {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.chat-gallery {
+    padding: 0 1rem;
+    /* max-height: calc(75vh - 83px); */
+}
+
+.chat-gallery-img {
+    height: 5.625rem !important;
+    width: 5.625rem !important;
+}
+
+.au-modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    padding: 1.5rem !important;
+    background-color: white;
+    width: max-content !important;
+    height: max-content !important;
+}
+
+.nc-form .MuiTextField-root {
+    margin-top: 0 !important;
+}
+
+.btn-p {
+    padding: 0.5rem !important;
+    color: var(--primaryColor) !important;
+}
+
+.btn-p:hover {
+    background-color: var(--backgroundButton) !important;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.nowrap {
+    flex-flow: nowrap !important;
+}

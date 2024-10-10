@@ -1,0 +1,31 @@
+.a-container {
+    background-color: none;
+    padding: 2rem;
+    border: 1px solid var(--secondaryColor);
+    border-radius: var(--radius);
+}
+
+.avatar-picker {
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    background-color: var(--descriptionColor) !important;
+}
+
+.avatar-picker:hover {
+    opacity: 0.7;
+}
+
+.avatar-picker > .MuiSvgIcon-root {
+    color: white;
+}
+
+.a-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.a-form .MuiTextField-root {
+    width: 100% !important;
+}

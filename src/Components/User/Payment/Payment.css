@@ -1,0 +1,13 @@
+.btn-close {
+    position: absolute !important;
+    right: 10px;
+    top: 10px;
+    color: 'gray';
+}
+
+.r-box {
+    background-color: var(--primaryColor);
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 1.1rem;
+}
